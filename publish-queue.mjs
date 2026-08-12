@@ -14,7 +14,7 @@ const IG_BASE = 'https://graph.facebook.com/v21.0';
 // commitadas no repositorio, servimos direto pelo CDN do GitHub (raw), sem
 // upload e sem host de terceiros (catbox/tmpfiles/0x0 quebraram — 2026-07).
 // Requisito: o repositorio precisa estar PUBLICO.
-const REPO = process.env.GITHUB_REPOSITORY || 'Killuaziin/squad-forastabile';
+const REPO = process.env.GITHUB_REPOSITORY || 'Killuaziin/squad-fs';
 const REF = process.env.GITHUB_SHA || process.env.RAW_REF || 'main';
 function rawUrl(imagePath) {
   const clean = String(imagePath).replace(/\\/g, '/').replace(/^\.?\/+/, '');
