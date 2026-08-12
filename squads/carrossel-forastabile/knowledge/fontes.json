@@ -1,0 +1,169 @@
+{
+  "_regra": "NENHUMA afirmação factual pode ser publicada sem estar amparada por uma fonte desta lista OU por pesquisa nova com URL de veículo jornalístico/documento oficial. Toda arte e legenda credita veículo + data. Esta lista espelha a seção #fontes de forastabile.com.br.",
+  "_atualizado": "2026-08-12",
+  "fontes_rodape": [
+    {
+      "id": "dgabc-seguranca-pessoal",
+      "veiculo": "DGABC",
+      "fato": "MP investiga uso de recursos do Corinthians para bancar segurança privada pessoal de Osmar Stabile",
+      "data": "2026-08-11",
+      "url": "https://www.dgabc.com.br/Noticia/4340603/mp-investiga-uso-de-recursos-do-corinthians-para-bancar-seguranca-privada-de-osmar-stabile"
+    },
+    {
+      "id": "terra-investigado-mp",
+      "veiculo": "Terra",
+      "fato": "Stabile vira investigado em apuração do MP-SP sobre contrato de segurança",
+      "data": "2026-06",
+      "url": "https://www.terra.com.br/esportes/corinthians/presidente-do-corinthians-vira-investigado-em-apuracao-sobre-contrato-de-seguranca,3c7164a64284892c2fafc4fda516a04b2rj31k5v.html"
+    },
+    {
+      "id": "lance-impeachment-junho",
+      "veiculo": "Lance",
+      "fato": "Conselheiros e sócios do Corinthians pedem impeachment de Osmar Stabile (empresas de segurança contratadas sem concorrência)",
+      "data": "2026-06-03",
+      "url": "https://www.lance.com.br/corinthians/conselheiros-e-socios-do-corinthians-pedem-impeachment-de-osmar-stabile.html"
+    },
+    {
+      "id": "infotimao-balancete-abr26",
+      "veiculo": "Infotimão",
+      "fato": "Balancete de abril/2026: R$ 3,36 bilhões em passivos totais, caixa de R$ 14,5 milhões, déficit de R$ 168 milhões (jan-abr/2026)",
+      "data": "2026",
+      "url": "https://www.infotimao.com.br/post/balancete-corinthians-deficit-divida-venda-jogadores-2026"
+    },
+    {
+      "id": "poder360-balanco-2025",
+      "veiculo": "Poder360",
+      "fato": "Balanço 2025: déficit de R$ 143 milhões e dívida de R$ 2,7 bilhões",
+      "data": "2026",
+      "url": "https://www.poder360.com.br/poder-sportsmkt/corinthians-tem-deficit-de-r-143-mi-e-divida-de-r-27-bi-em-2025/"
+    },
+    {
+      "id": "poder360-reeleicao-saf",
+      "veiculo": "Poder360",
+      "fato": "Conselho aprova regra de reeleição favorável a Stabile e veta discussão de SAF",
+      "data": "2026-05-04",
+      "url": "https://www.poder360.com.br/poder-sportsmkt/conselho-do-corinthians-aprova-reeleicao-de-stabile-e-veta-saf/"
+    },
+    {
+      "id": "jogada10-tuma-reassume",
+      "veiculo": "Jogada10/O Povo",
+      "fato": "Justiça anula afastamento e Romeu Tuma Junior reassume a presidência do Conselho Deliberativo",
+      "data": "2026-06-15",
+      "url": "https://www.opovo.com.br/agencia/jogada10/2026/06/15/romeu-tuma-junior-reassume-a-presidencia-do-conselho-do-corinthians.html"
+    },
+    {
+      "id": "jogada10-liminar-estatuto",
+      "veiculo": "Jogada10/O Povo",
+      "fato": "Justiça suspende assembleia da reforma do estatuto do Corinthians (liminar)",
+      "data": "2026-06-16",
+      "url": "https://www.opovo.com.br/agencia/jogada10/2026/06/16/justica-suspende-assembleia-da-reforma-do-estatuto-do-corinthians.html"
+    },
+    {
+      "id": "gazeta-faixas-arena",
+      "veiculo": "Gazeta Esportiva",
+      "fato": "Torcida leva faixas de protesto contra a diretoria à Neo Química Arena",
+      "data": "2026-07-30",
+      "url": "https://www.gazetaesportiva.com/times/corinthians/torcida-do-corinthians-leva-faixas-a-neo-quimica-arena-e-protesta-contra-diretoria/"
+    },
+    {
+      "id": "meutimao-gavioes-veto-faixas",
+      "veiculo": "Meu Timão",
+      "fato": "Gaviões da Fiel repudia veto às faixas de protesto (já aprovadas pela PM) antes de jogo em Itaquera",
+      "data": "2026-07-30",
+      "url": "https://www.meutimao.com.br/noticias-do-corinthians/536741/gavioes-da-fiel-repudia-veto-a-faixas-de-protesto-antes-de-jogo-do-corinthians-em-itaquera"
+    },
+    {
+      "id": "espn-memphis-sai",
+      "veiculo": "ESPN",
+      "fato": "Corinthians não renova contrato e Memphis Depay deixa o clube (que ainda lhe deve cerca de R$ 42 milhões)",
+      "data": "2026-08",
+      "url": "https://www.espn.com.br/futebol/corinthians/artigo/_/id/17105589/corinthians-nao-renova-contrato-memphis-depay-deixa-clube"
+    },
+    {
+      "id": "thefootball-salarios-atrasados",
+      "veiculo": "The Football",
+      "fato": "Salários, direitos de imagem e premiações atrasados; pressão do vestiário",
+      "data": "2026-08-08",
+      "url": "https://thefootball.com.br/corinthians-tem-salarios-imagens-e-premiacoes-atrasadas-e-comeca-a-ser-pressionado-pelo-vestiario/"
+    },
+    {
+      "id": "cnn-transfer-ban",
+      "veiculo": "CNN Brasil",
+      "fato": "FIFA aplica novo transfer ban ao Corinthians por não pagar dívidas",
+      "data": "2026-07",
+      "url": "https://www.cnnbrasil.com.br/esportes/futebol/corinthians/fifa-aplica-novo-transfer-ban-ao-corinthians-por-nao-pagar-dividas/"
+    },
+    {
+      "id": "pgfn-acordo-dividas",
+      "veiculo": "PGFN (oficial)",
+      "fato": "PGFN e Corinthians firmam acordo para regularizar dívidas tributárias, com o Parque São Jorge como garantia",
+      "data": "2026",
+      "url": "https://www.gov.br/pgfn/pt-br/assuntos/noticias/2026/pgfn-e-corinthians-firmam-acordo-para-regularizar-dividas-tributarias"
+    },
+    {
+      "id": "timesbrasil-intervencao",
+      "veiculo": "Times Brasil",
+      "fato": "Justiça alerta para possível intervenção no Corinthians após divergência de quase R$ 150 milhões em receitas",
+      "data": "2026-03-25",
+      "url": "https://timesbrasil.com.br/brasil/justica-alerta-para-possivel-intervencao-no-corinthians-apos-divergencia-de-quase-r-150-mi-em-receitas/"
+    },
+    {
+      "id": "espn-eleicao-199-votos",
+      "veiculo": "ESPN",
+      "fato": "Stabile vence eleição indireta com 199 votos de conselheiros e segue presidente até dezembro/2026",
+      "data": "2025-08-25",
+      "url": "https://www.espn.com.br/futebol/corinthians/artigo/_/id/15590820/corinthians-osmar-stabile-vence-eleicao-seguira-presidente-dezembro-2026"
+    }
+  ],
+  "fontes_inline": [
+    {
+      "id": "cnn-perfil-stabile",
+      "veiculo": "CNN Brasil",
+      "fato": "Perfil de Osmar Stabile: ditadura, firma de segurança e música",
+      "data": "2025",
+      "url": "https://www.cnnbrasil.com.br/esportes/futebol/corinthians/ditadura-firma-e-musica-conheca-osmar-stabile-presidente-do-corinthians/"
+    },
+    {
+      "id": "cnn-supercopa-2026",
+      "veiculo": "CNN Brasil",
+      "fato": "Corinthians vence o Flamengo e é campeão da Supercopa do Brasil 2026",
+      "data": "2026-02-01",
+      "url": "https://www.cnnbrasil.com.br/esportes/futebol/supercopa-do-brasil/corinthians-surpreende-flamengo-e-e-campeao-da-supercopa-do-brasil-2026/"
+    },
+    {
+      "id": "espn-dorival-demitido",
+      "veiculo": "ESPN",
+      "fato": "Bastidores da demissão de Dorival Junior — multa de cerca de R$ 6 milhões",
+      "data": "2026-04",
+      "url": "https://www.espn.com.br/futebol/corinthians/artigo/_/id/16535585/corinthians-dorival-junior-bastidores-demissao-pressao-pre-jogo-valor-da-multa-busca-substituto"
+    },
+    {
+      "id": "band-divida-rivais",
+      "veiculo": "Band",
+      "fato": "Corinthians tem dívida maior que Palmeiras e São Paulo juntos e a menor receita entre os rivais",
+      "data": "2026-04-29",
+      "url": "https://www.band.com.br/esportes/corinthians-tem-divida-maior-do-que-palmeiras-e-sao-paulo-juntos-e-menor-receita-entre-rivais-202604291018"
+    },
+    {
+      "id": "terra-primeiro-impeachment",
+      "veiculo": "Terra",
+      "fato": "Corinthians recebe primeiro pedido de impeachment contra Osmar Stabile",
+      "data": "2026-04",
+      "url": "https://www.terra.com.br/esportes/corinthians/corinthians-recebe-pedido-de-impeachment-contra-presidente-osmar-stabile,fff37649bb24b03c1622e0f9f19053beukdculms.html"
+    },
+    {
+      "id": "metropoles-memphis-nao-renova",
+      "veiculo": "Metrópoles",
+      "fato": "Corinthians anuncia que não renovará com Memphis Depay",
+      "data": "2026-07",
+      "url": "https://www.metropoles.com/esportes/corinthians-anuncia-que-nao-ira-renovar-com-memphis-depay"
+    },
+    {
+      "id": "meutimao-eliminacao-copa",
+      "veiculo": "Meu Timão",
+      "fato": "Corinthians é eliminado da Copa do Brasil mesmo com vitória sobre o Internacional",
+      "data": "2026-08",
+      "url": "https://www.meutimao.com.br/noticias-do-corinthians/537252/corinthians-e-eliminado-da-copa-do-brasil-mesmo-com-vitoria-diante-do-internacional"
+    }
+  ]
+}

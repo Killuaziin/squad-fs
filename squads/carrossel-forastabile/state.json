@@ -1,0 +1,57 @@
+{
+  "squad": "carrossel-forastabile",
+  "status": "idle",
+  "step": { "current": 0, "total": 9, "label": null },
+  "agents": [
+    {
+      "id": "pesquisador",
+      "name": "Pesquisador",
+      "icon": "🔍",
+      "status": "idle",
+      "desk": { "col": 1, "row": 1 }
+    },
+    {
+      "id": "copywriter",
+      "name": "Copywriter",
+      "icon": "✍️",
+      "status": "idle",
+      "desk": { "col": 2, "row": 1 }
+    },
+    {
+      "id": "compliance",
+      "name": "Compliance Editorial",
+      "icon": "⚖️",
+      "status": "idle",
+      "desk": { "col": 3, "row": 1 }
+    },
+    {
+      "id": "designer",
+      "name": "Designer",
+      "icon": "🎨",
+      "status": "idle",
+      "desk": { "col": 1, "row": 2 }
+    },
+    {
+      "id": "diretor-arte",
+      "name": "Diretor de Arte",
+      "icon": "🖼️",
+      "status": "idle",
+      "desk": { "col": 2, "row": 2 }
+    },
+    {
+      "id": "operador",
+      "name": "Operador",
+      "icon": "📱",
+      "status": "idle",
+      "desk": { "col": 3, "row": 2 }
+    }
+  ],
+  "aprovacao_humana": {
+    "aprovado": false,
+    "aprovado_em": null,
+    "decisao": null
+  },
+  "handoff": null,
+  "startedAt": null,
+  "updatedAt": null
+}

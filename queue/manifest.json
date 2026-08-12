@@ -1,0 +1,14 @@
+{
+  "_comentario": "Fila de publicação do @forastabile. Posts COM 'date' (YYYY-MM-DD) têm prioridade no dia exato (notícia quente). Posts SEM 'date' são escolhidos pelo tipo do dia da semana (schedule abaixo, dia UTC), na ordem do array. Tipos = pilares: numeros | dossie | faixa | noticias.",
+  "timezone_referencia": "America/Sao_Paulo (09h BRT = 12h UTC, mesmo dia da semana)",
+  "schedule": {
+    "0": "faixa",
+    "1": "numeros",
+    "2": "dossie",
+    "3": "noticias",
+    "4": "numeros",
+    "5": "dossie",
+    "6": "faixa"
+  },
+  "posts": []
+}

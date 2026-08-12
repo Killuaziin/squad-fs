@@ -1,0 +1,41 @@
+id: carrossel-forastabile
+name: Carrossel Instagram
+description: >
+  Produção automatizada de carrosseis para o Instagram @forastabile com compliance
+  jurídico-editorial embutido. Dois portões de revisão (copy e arte) garantem que
+  nenhum conteúdo sem fonte ou com risco jurídico seja publicado ("investigação não
+  é condenação"). Gate de aprovação humana obrigatório antes de publicar/enfileirar.
+icon: 📢
+version: "1.0"
+
+skills:
+  - web_search
+  - web_fetch
+  - instagram-publisher
+
+data:
+  - pipeline/data/research-brief.md
+  - pipeline/data/domain-framework.md
+  - pipeline/data/quality-criteria.md
+  - pipeline/data/output-examples.md
+  - pipeline/data/anti-patterns.md
+  - pipeline/data/tone-of-voice.md
+
+knowledge:
+  - knowledge/fontes.json
+  - knowledge/fatos.md
+  - knowledge/regras_editoriais.md
+  - knowledge/brand_guidelines.md
+  - knowledge/persona.md
+
+pipeline:
+  steps:
+    - pipeline/steps/step-01-input.md
+    - pipeline/steps/step-02-pesquisador.md
+    - pipeline/steps/step-03-copywriter.md
+    - pipeline/steps/step-04-compliance-copy.md
+    - pipeline/steps/step-05-designer.md
+    - pipeline/steps/step-06-diretor-arte.md
+    - pipeline/steps/step-07-compliance-arte.md
+    - pipeline/steps/step-08-aprovacao-humana.md
+    - pipeline/steps/step-09-operador.md
