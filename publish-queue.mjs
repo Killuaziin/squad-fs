@@ -124,8 +124,12 @@ const DRY = process.env.DRY_RUN === '1';
 const today = process.env.FORCE_DATE || new Date().toISOString().slice(0, 10); // YYYY-MM-DD (UTC)
 const weekday = (process.env.FORCE_DATE ? new Date(process.env.FORCE_DATE + 'T12:00:00Z') : new Date()).getUTCDay(); // 0=Dom..6=Sab
 
-// 1) Prioridade: post com DATA explicita marcada para hoje (one-off, ex.: sabado)
-let post = m.posts.find(p => !p.published && p.date === today);
+// 1) Prioridade: post com DATA explicita para hoje OU atrasado (data no passado).
+// Sem o "<=", um post datado que falhou no dia dele ficaria orfao para sempre:
+// a regra 2 so considera posts SEM data. Do mais antigo para o mais novo.
+let post = m.posts
+  .filter(p => !p.published && p.date && p.date <= today)
+  .sort((a, b) => a.date.localeCompare(b.date))[0];
 let type;
 
 if (post) {
