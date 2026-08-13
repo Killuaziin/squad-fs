@@ -34,28 +34,46 @@ No **menu lateral esquerdo**, clique em **"Casos de uso"** (ou "Use cases").
 - Se **não existir**, clique em **"Adicionar caso de uso"**, escolha o card do **Instagram** e confirme.
   Quando perguntar o tipo de login, escolha **"API do Instagram com login do Instagram"**.
 
-### Passo 3 — Liberar as permissões
+### Passo 3 — Liberar a permissão de publicação ⚠️
 
-Dentro do caso de uso, abra a aba **"Permissões"** e clique em **"Adicionar"** nestas duas:
+Abra **"Configuração da API com login do Instagram"** no submenu. O item 1 já vem com as permissões de
+**mensagens** marcadas (`instagram_business_basic`, `manage_comments`, `manage_messages`), mas **falta a de publicar**.
 
-- `instagram_business_basic`
-- `instagram_business_content_publish`
+Clique em **"Go to permissions and features"**, procure **`instagram_business_content_publish`** e clique em **"+ Adicionar"**.
 
-(Nesta rota os nomes têm o prefixo `instagram_business_`. Não é preciso pedir revisão para usar na própria conta.)
+> **A ordem importa:** o token guarda as permissões existentes **no momento em que foi gerado**.
+> Se gerar antes de adicionar essa permissão, é preciso gerar o token de novo.
 
-### Passo 4 — Vincular a conta e gerar o token
+### Passo 4 — Dar a função de Testador à conta ⚠️
 
-Ainda no caso de uso, abra **"Configuração da API com login do Instagram"** (*API setup with Instagram login*).
+Sem isso o popup de login falha com *"Função de desenvolvedor é insuficiente"*.
 
-1. No item **1. Gerar tokens de acesso**, clique em **"Adicionar conta"**.
-2. Abre um popup do Instagram: faça login com o **@forastabile** e **autorize** o app.
-3. A conta passa a aparecer numa tabela. Clique em **"Gerar token"** na linha dela.
-4. Marque o checkbox de confirmação. Aparece um **texto muito longo** (150+ caracteres, começa com `IGAA...`).
+1. Abra **https://developers.facebook.com/apps/2746407875732317/roles/roles/**
+2. Em **"Testadores do Instagram"** → **"Adicionar pessoas"** → digite `forastabile` → enviar convite.
+3. Entre no Instagram **como @forastabile** → *Configurações → Apps e sites → Convites de testador* → **Aceitar**.
+
+### Passo 5 — Vincular a conta e gerar o token
+
+De volta em **"Configuração da API com login do Instagram"**, item **"2. Gerar tokens de acesso"**:
+
+1. Clique em **"Adicionar conta"** e faça login com o **@forastabile** (confira que o navegador não está
+   logado em outra conta do Instagram, senão o popup pega a sessão errada).
+2. A conta aparece numa tabela. Clique em **"Gerar token"** na linha dela.
+3. Marque o checkbox. Aparece um **texto muito longo** (150+ caracteres, começa com `IGAA...`).
    **Esse é o `INSTAGRAM_ACCESS_TOKEN`.** Copie inteiro.
-5. Na mesma tabela existe o **ID da conta** (número comprido, ex.: `17841400000000000`).
-   **Esse é o `INSTAGRAM_USER_ID`.**
 
-> O token gerado por aqui já é de **longa duração (60 dias)**. Não precisa trocar por outro.
+> O token gerado aqui já é de **longa duração (60 dias)**. Não precisa trocar por outro.
+
+### Passo 6 — Descobrir o INSTAGRAM_USER_ID correto ⚠️
+
+**Não use o ID que aparece na tabela do painel** (aquele que começa com `1784...`). Ele é o IGID da rota
+do Facebook e retorna erro 100 nesta API. O ID certo vem da própria API:
+
+```
+GET https://graph.instagram.com/v21.0/me?fields=id,username&access_token={token}
+```
+
+O campo `id` da resposta é o `INSTAGRAM_USER_ID`. O `username` deve ser `forastabile`.
 
 ### Passo 5 — Salvar as credenciais
 
@@ -104,10 +122,34 @@ Use apenas se a rota acima não estiver disponível no painel.
 
 ## Validação final
 
-Com o `.env` preenchido, o Claude confirma que o token aponta para a conta certa:
+Três checagens antes de considerar o setup pronto:
+
+```bash
+# 1) O token é da conta certa? (deve responder username: forastabile)
+curl "https://graph.instagram.com/v21.0/me?fields=id,username,account_type&access_token=$TOKEN"
+
+# 2) O ID funciona no endpoint de mídia? (deve listar posts, não dar erro 100)
+curl "https://graph.instagram.com/v21.0/$INSTAGRAM_USER_ID/media?limit=1&access_token=$TOKEN"
+
+# 3) O token pode publicar? URL de imagem inválida de propósito:
+#    se o erro falar da MÍDIA (código 9004), a permissão existe.
+#    se falar de PERMISSÃO (código 10/200), falta instagram_business_content_publish.
+curl -X POST "https://graph.instagram.com/v21.0/$INSTAGRAM_USER_ID/media?image_url=https://forastabile.com.br/teste.jpg&is_carousel_item=true&access_token=$TOKEN"
+```
+
+**Nunca publicar sem a checagem 1** — este projeto nasceu de um clone que continha credenciais de outra conta.
+
+> `debug_token` não funciona nesta API (retorna "Application does not have permission"). Use a checagem 3 para inferir o escopo.
+
+## Renovação (a cada ~60 dias)
+
+Nesta rota dá para renovar sem refazer nada, desde que o token ainda esteja válido:
 
 ```
-GET https://graph.instagram.com/{ig-user-id}?fields=username&access_token={token}
+GET https://graph.instagram.com/refresh_access_token?grant_type=ig_refresh_token&access_token={token_atual}
 ```
 
-Deve responder `"username": "forastabile"`. **Nunca publicar sem essa checagem** — este projeto nasceu de um clone que continha credenciais de outra conta.
+Retorna um token novo com mais 60 dias. Atualize o `.env` **e** o secret do GitHub.
+Se o token já tiver expirado, refaça os passos 5 e 6.
+
+**Token atual gerado em:** 2026-08-13 → expira por volta de **2026-10-12**.

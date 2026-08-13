@@ -7,7 +7,9 @@
 import { readFileSync, writeFileSync, readdirSync } from 'node:fs';
 
 const MANIFEST = 'queue/manifest.json';
-const IG_BASE = 'https://graph.facebook.com/v21.0';
+// API do Instagram com Login do Instagram (graph.instagram.com), nao a rota via Facebook.
+// O INSTAGRAM_USER_ID e o id devolvido por GET /me nesta API, nao o IGID do painel.
+const IG_BASE = 'https://graph.instagram.com/v21.0';
 
 // ---- hospedagem de imagem: raw.githubusercontent.com (repositorio PUBLICO) ----
 // O Instagram busca cada imagem por URL publica. Como as imagens ja estao
