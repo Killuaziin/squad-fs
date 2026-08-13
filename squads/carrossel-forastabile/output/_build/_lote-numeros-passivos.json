@@ -1,0 +1,37 @@
+{
+  "outDir": "queue/posts/numeros-passivos",
+  "slides": [
+    {
+      "tipo": "stat",
+      "stat": "R$ 3,36 BI",
+      "statCor": "vermelho",
+      "body": "em passivos totais. O caixa disponível é de R$ 14,5 milhões.",
+      "credito": "Fonte: Balancete oficial · Infotimão · abr/2026"
+    },
+    {
+      "tipo": "fato",
+      "numero": "01",
+      "headline": "MAIOR QUE OS RIVAIS SOMADOS",
+      "body": "A dívida do Corinthians supera as de Palmeiras e São Paulo juntas. E o clube tem a menor receita entre eles.",
+      "credito": "Fonte: Band · abr/2026"
+    },
+    {
+      "tipo": "stat",
+      "stat": "R$ 168 MI",
+      "statCor": "branco",
+      "body": "de déficit só entre janeiro e abril de 2026.",
+      "credito": "Fonte: Balancete oficial · Infotimão"
+    },
+    {
+      "tipo": "faixa",
+      "headline": "BILHÕES EM DÍVIDAS\nZERO DE VERGONHA",
+      "body": "Faixa levada à Neo Química Arena em 30 de julho de 2026.",
+      "credito": "Fonte: Gazeta Esportiva · 30/07/2026"
+    },
+    {
+      "tipo": "cta",
+      "headline": "ASSINE O\nMANIFESTO",
+      "body": "Leva 1 minuto. Link na bio."
+    }
+  ]
+}

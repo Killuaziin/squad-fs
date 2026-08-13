@@ -1,0 +1,37 @@
+{
+  "outDir": "queue/posts/dossie-linha-do-tempo",
+  "slides": [
+    {
+      "tipo": "noticia",
+      "tarja": "LINHA DO TEMPO · 2026",
+      "headline": "OS MESES QUE EXPLICAM A CRISE",
+      "body": "Cada marco abaixo saiu em reportagem publicada. Nada aqui é boato."
+    },
+    {
+      "tipo": "fato",
+      "numero": "05/04",
+      "headline": "DORIVAL DEMITIDO",
+      "body": "A demissão custou multa de cerca de R$ 6 milhões.",
+      "credito": "Fonte: ESPN · abr/2026"
+    },
+    {
+      "tipo": "fato",
+      "numero": "04/05",
+      "headline": "REELEIÇÃO APROVADA, SAF VETADA",
+      "body": "O Conselho aprovou a regra de reeleição e barrou a discussão da SAF.",
+      "credito": "Fonte: Poder360 · 04/05/2026"
+    },
+    {
+      "tipo": "fato",
+      "numero": "15/06",
+      "headline": "A JUSTIÇA DEVOLVE O CONSELHO",
+      "body": "Romeu Tuma Junior reassume a presidência do Conselho após decisão judicial anular seu afastamento.",
+      "credito": "Fonte: Jogada10 · 15/06/2026"
+    },
+    {
+      "tipo": "cta",
+      "headline": "ASSINE O\nMANIFESTO",
+      "body": "Leva 1 minuto. Link na bio."
+    }
+  ]
+}

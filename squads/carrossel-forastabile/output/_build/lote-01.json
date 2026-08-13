@@ -1,0 +1,153 @@
+{
+  "_comentario": "Lote 1: conteudo perene dos pilares numeros, dossie e faixa. Todo fato vem de knowledge/fontes.json. Sem data fixa: o publicador escolhe pelo tipo do dia da semana.",
+  "posts": [
+    {
+      "id": "numeros-passivos",
+      "type": "numeros",
+      "title": "R$ 3,36 bi em passivos",
+      "slides": [
+        { "tipo": "stat", "stat": "R$ 3,36 BI", "statCor": "vermelho", "body": "em passivos totais. O caixa disponível é de R$ 14,5 milhões.", "credito": "Fonte: Balancete oficial · Infotimão · abr/2026" },
+        { "tipo": "fato", "numero": "01", "headline": "MAIOR QUE OS RIVAIS SOMADOS", "body": "A dívida do Corinthians supera as de Palmeiras e São Paulo juntas. E o clube tem a menor receita entre eles.", "credito": "Fonte: Band · abr/2026" },
+        { "tipo": "stat", "stat": "R$ 168 MI", "statCor": "branco", "body": "de déficit só entre janeiro e abril de 2026.", "credito": "Fonte: Balancete oficial · Infotimão" },
+        { "tipo": "faixa", "headline": "BILHÕES EM DÍVIDAS\nZERO DE VERGONHA", "body": "Faixa levada à Neo Química Arena em 30 de julho de 2026.", "credito": "Fonte: Gazeta Esportiva · 30/07/2026" },
+        { "tipo": "cta", "headline": "ASSINE O\nMANIFESTO", "body": "Leva 1 minuto. Link na bio." }
+      ],
+      "caption": "O balancete oficial de abril de 2026 mostra R$ 3,36 bilhões em passivos totais e apenas R$ 14,5 milhões em caixa (Infotimão). Só entre janeiro e abril, o déficit foi de R$ 168 milhões.\n\nA dívida do Corinthians é maior que as de Palmeiras e São Paulo somadas, e o clube tem a menor receita entre os três (Band, abril de 2026).\n\nEm 30 de julho, a Fiel levou à Neo Química Arena a faixa \"Bilhões em dívidas, zero de vergonha\" (Gazeta Esportiva).\n\nAssine o manifesto em forastabile.com.br. Leva 1 minuto. Link na bio.\n\nMovimento independente de torcedores. Sem vínculo com o clube, com organizadas ou com candidatos.\n\n#ForaStabile #Corinthians #Fiel #OCorinthiansEDoPovo"
+    },
+    {
+      "id": "numeros-transfer-ban",
+      "type": "numeros",
+      "title": "6 transfer bans em 12 meses",
+      "slides": [
+        { "tipo": "stat", "stat": "6 PUNIÇÕES", "statCor": "vermelho", "body": "de transfer ban em 12 meses. Três seguem ativas.", "credito": "Fonte: FIFA/CBF · Gazeta Esportiva · 2026" },
+        { "tipo": "fato", "numero": "01", "headline": "JANELA ABERTA, MÃOS ATADAS", "body": "Enquanto as punições valem, o clube não pode registrar reforços.", "credito": "Fonte: CNN Brasil · jul/2026" },
+        { "tipo": "fato", "numero": "02", "headline": "O MOTIVO É SEMPRE O MESMO", "body": "Dívidas não pagas com jogadores e com outros clubes.", "credito": "Fonte: CNN Brasil · jul/2026" },
+        { "tipo": "faixa", "headline": "TRANSFER BAN.\nATÉ QUANDO?", "body": "Faixa levada à Neo Química Arena em 30 de julho de 2026.", "credito": "Fonte: Gazeta Esportiva · 30/07/2026" },
+        { "tipo": "cta", "headline": "ASSINE O\nMANIFESTO", "body": "Leva 1 minuto. Link na bio." }
+      ],
+      "caption": "Foram 6 punições de transfer ban em 12 meses, três delas ainda ativas (FIFA e CBF). O motivo é sempre o mesmo: dívidas não pagas com jogadores e com outros clubes (CNN Brasil, julho de 2026).\n\nNa prática, o Corinthians atravessa a janela de transferências sem poder registrar reforços.\n\n\"Transfer ban. Até quando?\" foi uma das oito faixas que a torcida levou à Neo Química Arena em 30 de julho (Gazeta Esportiva).\n\nAssine o manifesto em forastabile.com.br. Leva 1 minuto. Link na bio.\n\nMovimento independente de torcedores. Sem vínculo com o clube, com organizadas ou com candidatos.\n\n#ForaStabile #Corinthians #Fiel #OCorinthiansEDoPovo"
+    },
+    {
+      "id": "numeros-caixa",
+      "type": "numeros",
+      "title": "R$ 14,5 mi de caixa",
+      "slides": [
+        { "tipo": "stat", "stat": "R$ 14,5 MI", "statCor": "vermelho", "body": "É todo o caixa disponível do Corinthians.", "credito": "Fonte: Balancete oficial · Infotimão · abr/2026" },
+        { "tipo": "fato", "numero": "01", "headline": "PARA UMA DÍVIDA DE R$ 3,36 BILHÕES", "body": "O caixa cobre menos de meio por cento do que o clube deve.", "credito": "Fonte: Balancete oficial · Infotimão · abr/2026" },
+        { "tipo": "fato", "numero": "02", "headline": "O PARQUE SÃO JORGE VIROU GARANTIA", "body": "A sede social foi oferecida como garantia no acordo de dívidas tributárias com a União.", "credito": "Fonte: PGFN · 2026" },
+        { "tipo": "faixa", "headline": "PLANO PARA\nA DÍVIDA: ZERO", "body": "Plano para o poder: 100%. Faixa levada à Arena em 30 de julho de 2026.", "credito": "Fonte: Gazeta Esportiva · 30/07/2026" },
+        { "tipo": "cta", "headline": "ASSINE O\nMANIFESTO", "body": "Leva 1 minuto. Link na bio." }
+      ],
+      "caption": "O caixa disponível do Corinthians em abril de 2026 era de R$ 14,5 milhões, para uma dívida de R$ 3,36 bilhões (balancete oficial, via Infotimão). Isso cobre menos de meio por cento do que o clube deve.\n\nNo acordo de regularização das dívidas tributárias com a União, o Parque São Jorge foi oferecido como garantia (PGFN).\n\n\"Plano para a dívida: 0. Plano para o poder: 100%\" foi uma das faixas levadas à Neo Química Arena em 30 de julho (Gazeta Esportiva).\n\nAssine o manifesto em forastabile.com.br. Leva 1 minuto. Link na bio.\n\nMovimento independente de torcedores. Sem vínculo com o clube, com organizadas ou com candidatos.\n\n#ForaStabile #Corinthians #Fiel #OCorinthiansEDoPovo"
+    },
+    {
+      "id": "numeros-vaquinha",
+      "type": "numeros",
+      "title": "R$ 41,4 mi da vaquinha",
+      "slides": [
+        { "tipo": "stat", "stat": "R$ 41,4 MI", "statCor": "vermelho", "body": "Foi quanto a Fiel doou na vaquinha da Arena.", "credito": "Fonte: Lance · CNN" },
+        { "tipo": "fato", "numero": "01", "headline": "A TORCIDA PAGOU. A GESTÃO NÃO.", "body": "O clube acumula punições de transfer ban por dívidas menores que esse valor.", "credito": "Fonte: FIFA/CBF · CNN · 2026" },
+        { "tipo": "fato", "numero": "02", "headline": "E OS SALÁRIOS ATRASARAM", "body": "Em agosto de 2026, o elenco cobrou salários, direitos de imagem e premiações em atraso.", "credito": "Fonte: The Football · 08/08/2026" },
+        { "tipo": "faixa", "headline": "VOCÊS NÃO SÃO\nDONOS DO CORINTHIANS", "body": "Faixa levada à Neo Química Arena em 30 de julho de 2026.", "credito": "Fonte: Gazeta Esportiva · 30/07/2026" },
+        { "tipo": "cta", "headline": "ASSINE O\nMANIFESTO", "body": "Leva 1 minuto. Link na bio." }
+      ],
+      "caption": "A Fiel doou R$ 41,4 milhões na vaquinha da Arena. O clube, por sua vez, acumula punições de transfer ban por dívidas menores que esse valor (FIFA e CBF, via CNN Brasil).\n\nEm agosto de 2026, o elenco passou a cobrar salários, direitos de imagem e premiações em atraso (The Football, 08/08/2026).\n\nQuem paga a conta é sempre o torcedor.\n\nAssine o manifesto em forastabile.com.br. Leva 1 minuto. Link na bio.\n\nMovimento independente de torcedores. Sem vínculo com o clube, com organizadas ou com candidatos.\n\n#ForaStabile #Corinthians #Fiel #OCorinthiansEDoPovo"
+    },
+    {
+      "id": "dossie-199-votos",
+      "type": "dossie",
+      "title": "Eleito por 199 conselheiros",
+      "slides": [
+        { "tipo": "stat", "stat": "199", "statCor": "vermelho", "body": "Foi o número de conselheiros que elegeram o presidente do Corinthians.", "credito": "Fonte: ESPN · 25/08/2025" },
+        { "tipo": "fato", "numero": "01", "headline": "NENHUM DELES FOI VOCÊ", "body": "A eleição foi indireta. O Fiel Torcedor não votou.", "credito": "Fonte: ESPN · ago/2025" },
+        { "tipo": "fato", "numero": "02", "headline": "EM NOVEMBRO PODE SE REPETIR", "body": "A eleição do clube pode ser decidida por cerca de 4,5 mil sócios, enquanto milhões de corintianos assistem de fora." },
+        { "tipo": "faixa", "headline": "VOTO PARA\nO FIEL TORCEDOR", "body": "É a terceira exigência do manifesto." },
+        { "tipo": "cta", "headline": "ASSINE O\nMANIFESTO", "body": "Leva 1 minuto. Link na bio." }
+      ],
+      "caption": "Osmar Stabile foi confirmado presidente do Corinthians em eleição indireta, decidida por 199 conselheiros, em 25 de agosto de 2025 (ESPN). O Fiel Torcedor não votou.\n\nEm novembro de 2026 a história pode se repetir: a eleição do clube pode ser decidida por cerca de 4,5 mil sócios, enquanto milhões de corintianos assistem de fora.\n\nPor isso a terceira exigência do manifesto é o voto do Fiel Torcedor.\n\nAssine o manifesto em forastabile.com.br. Leva 1 minuto. Link na bio.\n\nMovimento independente de torcedores. Sem vínculo com o clube, com organizadas ou com candidatos.\n\n#ForaStabile #Corinthians #Fiel #OCorinthiansEDoPovo"
+    },
+    {
+      "id": "dossie-impeachments",
+      "type": "dossie",
+      "title": "Tres pedidos de impeachment",
+      "slides": [
+        { "tipo": "stat", "stat": "3 PEDIDOS", "statCor": "vermelho", "body": "de impeachment contra Osmar Stabile só em 2026.", "credito": "Fonte: Terra · Lance · 2026" },
+        { "tipo": "fato", "numero": "01", "headline": "ABRIL", "body": "O primeiro pedido citou o Parque São Jorge oferecido como garantia à União.", "credito": "Fonte: Terra · abr/2026" },
+        { "tipo": "fato", "numero": "02", "headline": "JUNHO", "body": "O segundo citou contratos de segurança fechados sem concorrência.", "credito": "Fonte: Lance · 03/06/2026" },
+        { "tipo": "fato", "numero": "03", "headline": "E A CONTA SEGUE ABERTA", "body": "Novos requerimentos continuam sendo protocolados nas comissões do clube.", "credito": "Fonte: Meu Timão · ago/2026" },
+        { "tipo": "cta", "headline": "ASSINE O\nMANIFESTO", "body": "Leva 1 minuto. Link na bio." }
+      ],
+      "caption": "Foram três pedidos de impeachment protocolados contra Osmar Stabile só em 2026.\n\nO primeiro, em abril, citou o Parque São Jorge oferecido como garantia no acordo de dívidas com a União (Terra). O segundo, em 3 de junho, citou contratos de segurança fechados sem concorrência (Lance). E novos requerimentos continuam chegando às comissões do clube (Meu Timão, agosto de 2026).\n\nNão é um episódio isolado. É um padrão.\n\nAssine o manifesto em forastabile.com.br. Leva 1 minuto. Link na bio.\n\nMovimento independente de torcedores. Sem vínculo com o clube, com organizadas ou com candidatos.\n\n#ForaStabile #Corinthians #Fiel #OCorinthiansEDoPovo"
+    },
+    {
+      "id": "dossie-investigacao-mp",
+      "type": "dossie",
+      "title": "Investigacao do MP sobre seguranca",
+      "slides": [
+        { "tipo": "noticia", "tarja": "MINISTÉRIO PÚBLICO", "headline": "O PRESIDENTE É INVESTIGADO", "body": "Desde junho de 2026, Osmar Stabile é investigado pelo MP-SP em apuração sobre contratos de segurança do clube.", "credito": "Fonte: Terra · jun/2026" },
+        { "tipo": "fato", "numero": "01", "headline": "O RAMO É O DELE", "body": "Stabile é empresário do setor de segurança privada.", "credito": "Fonte: CNN Brasil" },
+        { "tipo": "fato", "numero": "02", "headline": "SEM CONCORRÊNCIA", "body": "Segundo o pedido de impeachment de junho, as empresas foram contratadas sem concorrência. Uma delas ligada à família.", "credito": "Fonte: Lance · 03/06/2026" },
+        { "tipo": "faixa", "headline": "INVESTIGAÇÃO\nNÃO É CONDENAÇÃO", "body": "Mas é motivo de sobra para não disputar uma reeleição." },
+        { "tipo": "cta", "headline": "ASSINE O\nMANIFESTO", "body": "Leva 1 minuto. Link na bio." }
+      ],
+      "caption": "Desde junho de 2026, Osmar Stabile é investigado pelo Ministério Público de São Paulo em apuração sobre contratos de segurança do Corinthians (Terra).\n\nStabile é empresário do setor de segurança privada (CNN Brasil). Segundo o pedido de impeachment protocolado em 3 de junho, as empresas foram contratadas sem concorrência, e uma delas tem ligação com a família (Lance).\n\nInvestigação não é condenação. Mas é motivo de sobra para não disputar uma reeleição enquanto a apuração corre.\n\nEssa é a segunda exigência do manifesto: nenhuma reeleição sob investigação.\n\nAssine o manifesto em forastabile.com.br. Leva 1 minuto. Link na bio.\n\nMovimento independente de torcedores. Sem vínculo com o clube, com organizadas ou com candidatos.\n\n#ForaStabile #Corinthians #Fiel #OCorinthiansEDoPovo"
+    },
+    {
+      "id": "dossie-linha-do-tempo",
+      "type": "dossie",
+      "title": "Linha do tempo 2026",
+      "slides": [
+        { "tipo": "noticia", "tarja": "LINHA DO TEMPO · 2026", "headline": "OS MESES QUE EXPLICAM A CRISE", "body": "Cada marco abaixo saiu em reportagem publicada. Nada aqui é boato." },
+        { "tipo": "fato", "numero": "05/04", "headline": "DORIVAL DEMITIDO", "body": "A demissão custou multa de cerca de R$ 6 milhões.", "credito": "Fonte: ESPN · abr/2026" },
+        { "tipo": "fato", "numero": "04/05", "headline": "REELEIÇÃO APROVADA, SAF VETADA", "body": "O Conselho aprovou a regra de reeleição e barrou a discussão da SAF.", "credito": "Fonte: Poder360 · 04/05/2026" },
+        { "tipo": "fato", "numero": "15/06", "headline": "A JUSTIÇA DEVOLVE O CONSELHO", "body": "Romeu Tuma Junior reassume a presidência do Conselho após decisão judicial anular seu afastamento.", "credito": "Fonte: Jogada10 · 15/06/2026" },
+        { "tipo": "cta", "headline": "ASSINE O\nMANIFESTO", "body": "Leva 1 minuto. Link na bio." }
+      ],
+      "caption": "2026 em alguns marcos, todos publicados pela imprensa:\n\n05/04: Dorival Junior é demitido, com multa de cerca de R$ 6 milhões (ESPN).\n04/05: o Conselho aprova a regra de reeleição e veta a discussão da SAF (Poder360).\n15/06: a Justiça anula o afastamento de Romeu Tuma Junior, que reassume a presidência do Conselho Deliberativo (Jogada10).\n\nNada aqui é boato. Cada afirmação vem de reportagem publicada, balanço oficial ou decisão judicial.\n\nAssine o manifesto em forastabile.com.br. Leva 1 minuto. Link na bio.\n\nMovimento independente de torcedores. Sem vínculo com o clube, com organizadas ou com candidatos.\n\n#ForaStabile #Corinthians #Fiel #OCorinthiansEDoPovo"
+    },
+    {
+      "id": "faixa-amadorismo",
+      "type": "faixa",
+      "title": "Basta de amadorismo",
+      "slides": [
+        { "tipo": "faixa", "headline": "BASTA DE\nAMADORISMO", "body": "Faixa levada à Neo Química Arena em 30 de julho de 2026.", "credito": "Fonte: Gazeta Esportiva · 30/07/2026" },
+        { "tipo": "fato", "numero": "01", "headline": "A FAIXA FOI VETADA", "body": "Oito faixas já aprovadas pela Polícia Militar foram barradas na entrada do estádio.", "credito": "Fonte: Meu Timão · 30/07/2026" },
+        { "tipo": "cta", "headline": "ASSINE O\nMANIFESTO", "body": "Leva 1 minuto. Link na bio." }
+      ],
+      "caption": "\"Basta de amadorismo.\" Foi uma das oito faixas que a Fiel levou à Neo Química Arena em 30 de julho de 2026 (Gazeta Esportiva).\n\nTodas já tinham sido aprovadas pela Polícia Militar, e mesmo assim foram barradas na entrada do estádio. A Gaviões da Fiel repudiou o veto publicamente (Meu Timão).\n\nQuem cala a torcida não representa a torcida.\n\nAssine o manifesto em forastabile.com.br. Leva 1 minuto. Link na bio.\n\nMovimento independente de torcedores. Sem vínculo com o clube, com organizadas ou com candidatos.\n\n#ForaStabile #Corinthians #Fiel #OCorinthiansEDoPovo"
+    },
+    {
+      "id": "faixa-donos",
+      "type": "faixa",
+      "title": "Voces nao sao donos do Corinthians",
+      "slides": [
+        { "tipo": "faixa", "headline": "VOCÊS NÃO SÃO\nDONOS DO CORINTHIANS", "body": "Faixa levada à Neo Química Arena em 30 de julho de 2026.", "credito": "Fonte: Gazeta Esportiva · 30/07/2026" },
+        { "tipo": "fato", "numero": "01", "headline": "QUEM DECIDE SÃO 4,5 MIL", "body": "A eleição de novembro pode ser decidida por cerca de 4,5 mil sócios. A torcida não vota." },
+        { "tipo": "cta", "headline": "ASSINE O\nMANIFESTO", "body": "Leva 1 minuto. Link na bio." }
+      ],
+      "caption": "\"Vocês não são donos do Corinthians.\" Foi uma das faixas levadas à Neo Química Arena em 30 de julho de 2026 (Gazeta Esportiva).\n\nA eleição de novembro pode ser decidida por cerca de 4,5 mil sócios. A imensa maioria da Fiel, que paga, vai ao estádio e sustenta o clube, não vota.\n\nO Corinthians é do povo.\n\nAssine o manifesto em forastabile.com.br. Leva 1 minuto. Link na bio.\n\nMovimento independente de torcedores. Sem vínculo com o clube, com organizadas ou com candidatos.\n\n#ForaStabile #Corinthians #Fiel #OCorinthiansEDoPovo"
+    },
+    {
+      "id": "faixa-liminar",
+      "type": "faixa",
+      "title": "Liminar nao cala a torcida",
+      "slides": [
+        { "tipo": "faixa", "headline": "LIMINAR NÃO\nCALA A TORCIDA", "body": "Faixa levada à Neo Química Arena em 30 de julho de 2026.", "credito": "Fonte: Gazeta Esportiva · 30/07/2026" },
+        { "tipo": "fato", "numero": "01", "headline": "O ESTATUTO ESTÁ TRAVADO", "body": "Uma liminar suspendeu a assembleia da reforma do estatuto em junho de 2026.", "credito": "Fonte: Jogada10 · 16/06/2026" },
+        { "tipo": "cta", "headline": "ASSINE O\nMANIFESTO", "body": "Leva 1 minuto. Link na bio." }
+      ],
+      "caption": "\"Liminar não cala a torcida.\" Foi uma das faixas levadas à Neo Química Arena em 30 de julho de 2026 (Gazeta Esportiva).\n\nEm 16 de junho, uma liminar suspendeu a assembleia que discutiria a reforma do estatuto do clube (Jogada10). É o estatuto que define quem pode votar nas eleições do Corinthians.\n\nEnquanto ele fica travado, a Fiel segue sem voto.\n\nAssine o manifesto em forastabile.com.br. Leva 1 minuto. Link na bio.\n\nMovimento independente de torcedores. Sem vínculo com o clube, com organizadas ou com candidatos.\n\n#ForaStabile #Corinthians #Fiel #OCorinthiansEDoPovo"
+    },
+    {
+      "id": "faixa-representa-quem",
+      "type": "faixa",
+      "title": "Cori representa quem",
+      "slides": [
+        { "tipo": "faixa", "headline": "CORI:\nREPRESENTA QUEM?", "body": "Faixa levada à Neo Química Arena em 30 de julho de 2026.", "credito": "Fonte: Gazeta Esportiva · 30/07/2026" },
+        { "tipo": "fato", "numero": "01", "headline": "A PERGUNTA SEGUE SEM RESPOSTA", "body": "Enquanto isso, o clube soma R$ 3,36 bilhões em passivos e três pedidos de impeachment em 2026.", "credito": "Fonte: Infotimão · abr/2026 · Terra · Lance" },
+        { "tipo": "cta", "headline": "ASSINE O\nMANIFESTO", "body": "Leva 1 minuto. Link na bio." }
+      ],
+      "caption": "\"Cori: representa quem?\" Foi uma das oito faixas levadas à Neo Química Arena em 30 de julho de 2026 (Gazeta Esportiva).\n\nA pergunta segue sem resposta. Enquanto isso, o balancete de abril mostra R$ 3,36 bilhões em passivos (Infotimão) e 2026 já acumula três pedidos de impeachment contra o presidente (Terra, Lance).\n\nAssine o manifesto em forastabile.com.br. Leva 1 minuto. Link na bio.\n\nMovimento independente de torcedores. Sem vínculo com o clube, com organizadas ou com candidatos.\n\n#ForaStabile #Corinthians #Fiel #OCorinthiansEDoPovo"
+    }
+  ]
+}

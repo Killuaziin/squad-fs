@@ -1,0 +1,37 @@
+{
+  "outDir": "queue/posts/numeros-transfer-ban",
+  "slides": [
+    {
+      "tipo": "stat",
+      "stat": "6 PUNIÇÕES",
+      "statCor": "vermelho",
+      "body": "de transfer ban em 12 meses. Três seguem ativas.",
+      "credito": "Fonte: FIFA/CBF · Gazeta Esportiva · 2026"
+    },
+    {
+      "tipo": "fato",
+      "numero": "01",
+      "headline": "JANELA ABERTA, MÃOS ATADAS",
+      "body": "Enquanto as punições valem, o clube não pode registrar reforços.",
+      "credito": "Fonte: CNN Brasil · jul/2026"
+    },
+    {
+      "tipo": "fato",
+      "numero": "02",
+      "headline": "O MOTIVO É SEMPRE O MESMO",
+      "body": "Dívidas não pagas com jogadores e com outros clubes.",
+      "credito": "Fonte: CNN Brasil · jul/2026"
+    },
+    {
+      "tipo": "faixa",
+      "headline": "TRANSFER BAN.\nATÉ QUANDO?",
+      "body": "Faixa levada à Neo Química Arena em 30 de julho de 2026.",
+      "credito": "Fonte: Gazeta Esportiva · 30/07/2026"
+    },
+    {
+      "tipo": "cta",
+      "headline": "ASSINE O\nMANIFESTO",
+      "body": "Leva 1 minuto. Link na bio."
+    }
+  ]
+}

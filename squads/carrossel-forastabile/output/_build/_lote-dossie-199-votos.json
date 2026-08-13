@@ -1,0 +1,35 @@
+{
+  "outDir": "queue/posts/dossie-199-votos",
+  "slides": [
+    {
+      "tipo": "stat",
+      "stat": "199",
+      "statCor": "vermelho",
+      "body": "Foi o número de conselheiros que elegeram o presidente do Corinthians.",
+      "credito": "Fonte: ESPN · 25/08/2025"
+    },
+    {
+      "tipo": "fato",
+      "numero": "01",
+      "headline": "NENHUM DELES FOI VOCÊ",
+      "body": "A eleição foi indireta. O Fiel Torcedor não votou.",
+      "credito": "Fonte: ESPN · ago/2025"
+    },
+    {
+      "tipo": "fato",
+      "numero": "02",
+      "headline": "EM NOVEMBRO PODE SE REPETIR",
+      "body": "A eleição do clube pode ser decidida por cerca de 4,5 mil sócios, enquanto milhões de corintianos assistem de fora."
+    },
+    {
+      "tipo": "faixa",
+      "headline": "VOTO PARA\nO FIEL TORCEDOR",
+      "body": "É a terceira exigência do manifesto."
+    },
+    {
+      "tipo": "cta",
+      "headline": "ASSINE O\nMANIFESTO",
+      "body": "Leva 1 minuto. Link na bio."
+    }
+  ]
+}

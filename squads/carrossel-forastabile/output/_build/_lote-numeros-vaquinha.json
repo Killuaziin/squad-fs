@@ -1,0 +1,37 @@
+{
+  "outDir": "queue/posts/numeros-vaquinha",
+  "slides": [
+    {
+      "tipo": "stat",
+      "stat": "R$ 41,4 MI",
+      "statCor": "vermelho",
+      "body": "Foi quanto a Fiel doou na vaquinha da Arena.",
+      "credito": "Fonte: Lance · CNN"
+    },
+    {
+      "tipo": "fato",
+      "numero": "01",
+      "headline": "A TORCIDA PAGOU. A GESTÃO NÃO.",
+      "body": "O clube acumula punições de transfer ban por dívidas menores que esse valor.",
+      "credito": "Fonte: FIFA/CBF · CNN · 2026"
+    },
+    {
+      "tipo": "fato",
+      "numero": "02",
+      "headline": "E OS SALÁRIOS ATRASARAM",
+      "body": "Em agosto de 2026, o elenco cobrou salários, direitos de imagem e premiações em atraso.",
+      "credito": "Fonte: The Football · 08/08/2026"
+    },
+    {
+      "tipo": "faixa",
+      "headline": "VOCÊS NÃO SÃO\nDONOS DO CORINTHIANS",
+      "body": "Faixa levada à Neo Química Arena em 30 de julho de 2026.",
+      "credito": "Fonte: Gazeta Esportiva · 30/07/2026"
+    },
+    {
+      "tipo": "cta",
+      "headline": "ASSINE O\nMANIFESTO",
+      "body": "Leva 1 minuto. Link na bio."
+    }
+  ]
+}

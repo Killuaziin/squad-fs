@@ -1,0 +1,36 @@
+{
+  "outDir": "queue/posts/dossie-investigacao-mp",
+  "slides": [
+    {
+      "tipo": "noticia",
+      "tarja": "MINISTÉRIO PÚBLICO",
+      "headline": "O PRESIDENTE É INVESTIGADO",
+      "body": "Desde junho de 2026, Osmar Stabile é investigado pelo MP-SP em apuração sobre contratos de segurança do clube.",
+      "credito": "Fonte: Terra · jun/2026"
+    },
+    {
+      "tipo": "fato",
+      "numero": "01",
+      "headline": "O RAMO É O DELE",
+      "body": "Stabile é empresário do setor de segurança privada.",
+      "credito": "Fonte: CNN Brasil"
+    },
+    {
+      "tipo": "fato",
+      "numero": "02",
+      "headline": "SEM CONCORRÊNCIA",
+      "body": "Segundo o pedido de impeachment de junho, as empresas foram contratadas sem concorrência. Uma delas ligada à família.",
+      "credito": "Fonte: Lance · 03/06/2026"
+    },
+    {
+      "tipo": "faixa",
+      "headline": "INVESTIGAÇÃO\nNÃO É CONDENAÇÃO",
+      "body": "Mas é motivo de sobra para não disputar uma reeleição."
+    },
+    {
+      "tipo": "cta",
+      "headline": "ASSINE O\nMANIFESTO",
+      "body": "Leva 1 minuto. Link na bio."
+    }
+  ]
+}

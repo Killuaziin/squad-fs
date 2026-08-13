@@ -1,0 +1,37 @@
+{
+  "outDir": "queue/posts/numeros-caixa",
+  "slides": [
+    {
+      "tipo": "stat",
+      "stat": "R$ 14,5 MI",
+      "statCor": "vermelho",
+      "body": "É todo o caixa disponível do Corinthians.",
+      "credito": "Fonte: Balancete oficial · Infotimão · abr/2026"
+    },
+    {
+      "tipo": "fato",
+      "numero": "01",
+      "headline": "PARA UMA DÍVIDA DE R$ 3,36 BILHÕES",
+      "body": "O caixa cobre menos de meio por cento do que o clube deve.",
+      "credito": "Fonte: Balancete oficial · Infotimão · abr/2026"
+    },
+    {
+      "tipo": "fato",
+      "numero": "02",
+      "headline": "O PARQUE SÃO JORGE VIROU GARANTIA",
+      "body": "A sede social foi oferecida como garantia no acordo de dívidas tributárias com a União.",
+      "credito": "Fonte: PGFN · 2026"
+    },
+    {
+      "tipo": "faixa",
+      "headline": "PLANO PARA\nA DÍVIDA: ZERO",
+      "body": "Plano para o poder: 100%. Faixa levada à Arena em 30 de julho de 2026.",
+      "credito": "Fonte: Gazeta Esportiva · 30/07/2026"
+    },
+    {
+      "tipo": "cta",
+      "headline": "ASSINE O\nMANIFESTO",
+      "body": "Leva 1 minuto. Link na bio."
+    }
+  ]
+}

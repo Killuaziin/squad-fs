@@ -1,0 +1,23 @@
+{
+  "outDir": "queue/posts/faixa-representa-quem",
+  "slides": [
+    {
+      "tipo": "faixa",
+      "headline": "CORI:\nREPRESENTA QUEM?",
+      "body": "Faixa levada à Neo Química Arena em 30 de julho de 2026.",
+      "credito": "Fonte: Gazeta Esportiva · 30/07/2026"
+    },
+    {
+      "tipo": "fato",
+      "numero": "01",
+      "headline": "A PERGUNTA SEGUE SEM RESPOSTA",
+      "body": "Enquanto isso, o clube soma R$ 3,36 bilhões em passivos e três pedidos de impeachment em 2026.",
+      "credito": "Fonte: Infotimão · abr/2026 · Terra · Lance"
+    },
+    {
+      "tipo": "cta",
+      "headline": "ASSINE O\nMANIFESTO",
+      "body": "Leva 1 minuto. Link na bio."
+    }
+  ]
+}

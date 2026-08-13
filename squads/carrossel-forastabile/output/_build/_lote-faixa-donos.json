@@ -1,0 +1,22 @@
+{
+  "outDir": "queue/posts/faixa-donos",
+  "slides": [
+    {
+      "tipo": "faixa",
+      "headline": "VOCÊS NÃO SÃO\nDONOS DO CORINTHIANS",
+      "body": "Faixa levada à Neo Química Arena em 30 de julho de 2026.",
+      "credito": "Fonte: Gazeta Esportiva · 30/07/2026"
+    },
+    {
+      "tipo": "fato",
+      "numero": "01",
+      "headline": "QUEM DECIDE SÃO 4,5 MIL",
+      "body": "A eleição de novembro pode ser decidida por cerca de 4,5 mil sócios. A torcida não vota."
+    },
+    {
+      "tipo": "cta",
+      "headline": "ASSINE O\nMANIFESTO",
+      "body": "Leva 1 minuto. Link na bio."
+    }
+  ]
+}

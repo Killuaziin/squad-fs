@@ -1,0 +1,38 @@
+{
+  "outDir": "queue/posts/dossie-impeachments",
+  "slides": [
+    {
+      "tipo": "stat",
+      "stat": "3 PEDIDOS",
+      "statCor": "vermelho",
+      "body": "de impeachment contra Osmar Stabile só em 2026.",
+      "credito": "Fonte: Terra · Lance · 2026"
+    },
+    {
+      "tipo": "fato",
+      "numero": "01",
+      "headline": "ABRIL",
+      "body": "O primeiro pedido citou o Parque São Jorge oferecido como garantia à União.",
+      "credito": "Fonte: Terra · abr/2026"
+    },
+    {
+      "tipo": "fato",
+      "numero": "02",
+      "headline": "JUNHO",
+      "body": "O segundo citou contratos de segurança fechados sem concorrência.",
+      "credito": "Fonte: Lance · 03/06/2026"
+    },
+    {
+      "tipo": "fato",
+      "numero": "03",
+      "headline": "E A CONTA SEGUE ABERTA",
+      "body": "Novos requerimentos continuam sendo protocolados nas comissões do clube.",
+      "credito": "Fonte: Meu Timão · ago/2026"
+    },
+    {
+      "tipo": "cta",
+      "headline": "ASSINE O\nMANIFESTO",
+      "body": "Leva 1 minuto. Link na bio."
+    }
+  ]
+}

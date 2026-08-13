@@ -1,0 +1,23 @@
+{
+  "outDir": "queue/posts/faixa-liminar",
+  "slides": [
+    {
+      "tipo": "faixa",
+      "headline": "LIMINAR NÃO\nCALA A TORCIDA",
+      "body": "Faixa levada à Neo Química Arena em 30 de julho de 2026.",
+      "credito": "Fonte: Gazeta Esportiva · 30/07/2026"
+    },
+    {
+      "tipo": "fato",
+      "numero": "01",
+      "headline": "O ESTATUTO ESTÁ TRAVADO",
+      "body": "Uma liminar suspendeu a assembleia da reforma do estatuto em junho de 2026.",
+      "credito": "Fonte: Jogada10 · 16/06/2026"
+    },
+    {
+      "tipo": "cta",
+      "headline": "ASSINE O\nMANIFESTO",
+      "body": "Leva 1 minuto. Link na bio."
+    }
+  ]
+}

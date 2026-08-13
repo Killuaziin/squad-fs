@@ -1,0 +1,23 @@
+{
+  "outDir": "queue/posts/faixa-amadorismo",
+  "slides": [
+    {
+      "tipo": "faixa",
+      "headline": "BASTA DE\nAMADORISMO",
+      "body": "Faixa levada à Neo Química Arena em 30 de julho de 2026.",
+      "credito": "Fonte: Gazeta Esportiva · 30/07/2026"
+    },
+    {
+      "tipo": "fato",
+      "numero": "01",
+      "headline": "A FAIXA FOI VETADA",
+      "body": "Oito faixas já aprovadas pela Polícia Militar foram barradas na entrada do estádio.",
+      "credito": "Fonte: Meu Timão · 30/07/2026"
+    },
+    {
+      "tipo": "cta",
+      "headline": "ASSINE O\nMANIFESTO",
+      "body": "Leva 1 minuto. Link na bio."
+    }
+  ]
+}
