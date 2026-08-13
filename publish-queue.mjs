@@ -35,39 +35,76 @@ async function checkPublic(url) {
 }
 
 // ---- Instagram Graph API ----
+// Os parametros de POST vao no CORPO, nunca na query string: com legenda longa +
+// varios filhos a URL passa de ~1600 caracteres e a API responde 200 com {"id":"0"},
+// uma falha silenciosa que nao traz mensagem de erro.
+async function postForm(path, params, token) {
+  const body = new URLSearchParams({ ...params, access_token: token });
+  const r = await fetch(`${IG_BASE}/${path}`, { method: 'POST', body });
+  const text = await r.text();
+  if (!r.ok) throw new Error(`POST ${path} ${r.status}: ${text}`);
+  const id = JSON.parse(text).id;
+  if (!id || id === '0') throw new Error(`POST ${path} devolveu id invalido: ${text}`);
+  return id;
+}
+
 async function createChild(userId, imageUrl, token) {
-  const p = new URLSearchParams({ image_url: imageUrl, is_carousel_item: 'true', access_token: token });
-  const r = await fetch(`${IG_BASE}/${userId}/media?${p}`, { method: 'POST' });
-  if (!r.ok) throw new Error(`createChild ${r.status}: ${await r.text()}`);
-  return (await r.json()).id;
+  return postForm(`${userId}/media`, { image_url: imageUrl, is_carousel_item: 'true' }, token);
 }
 async function status(id, token) {
   const p = new URLSearchParams({ fields: 'status_code', access_token: token });
   const r = await fetch(`${IG_BASE}/${id}?${p}`);
-  if (!r.ok) throw new Error(`status ${r.status}: ${await r.text()}`);
+  if (!r.ok) {
+    const body = await r.text();
+    // Container recem-criado leva alguns segundos para ficar consultavel e responde
+    // 100/33 nesse intervalo. Tratamos como "ainda nao pronto", nao como falha.
+    if (/"code":\s*100/.test(body) && /"error_subcode":\s*33/.test(body)) return null;
+    throw new Error(`status ${r.status}: ${body}`);
+  }
   return (await r.json()).status_code;
 }
+// metadata=1 e a unica forma de obter o error_message legivel de um container.
+async function detalheErro(id, token) {
+  try {
+    const r = await fetch(`${IG_BASE}/${id}?metadata=1&access_token=${token}`);
+    return (await r.json()).error_message || 'sem detalhe';
+  } catch { return 'sem detalhe'; }
+}
+
 async function waitFinished(id, token, timeout = 90000) {
+  if (!id) throw new Error('waitFinished chamado sem id de container');
   const end = Date.now() + timeout;
   while (Date.now() < end) {
-    const s = await status(id, token);
+    const s = await status(id, token); // null = container ainda nao consultavel
     if (s === 'FINISHED') return;
-    if (s === 'ERROR') throw new Error(`container ${id} em ERROR`);
+    if (s === 'ERROR') throw new Error(`container ${id} em ERROR: ${await detalheErro(id, token)}`);
     await new Promise(r => setTimeout(r, 3000));
   }
   throw new Error(`container ${id} timeout`);
 }
-async function createCarousel(userId, children, caption, token) {
-  const p = new URLSearchParams({ media_type: 'CAROUSEL', children: children.join(','), caption, access_token: token });
-  const r = await fetch(`${IG_BASE}/${userId}/media?${p}`, { method: 'POST' });
-  if (!r.ok) throw new Error(`createCarousel ${r.status}: ${await r.text()}`);
-  return (await r.json()).id;
+// O carrossel e a etapa fragil da API. Dois modos de falha ja observados:
+//   1. responde 200 com {"id":"0"} enquanto os filhos ainda propagam (~15s);
+//   2. aceita o container mas ele vai a ERROR com "retry creating a new container later"
+//      quando a conta criou muitos containers em pouco tempo.
+// Nos dois casos a saida e a mesma: esperar e montar um container novo.
+// `children` vai como array JSON: a forma separada por virgula devolve {"id":"0"} de forma intermitente.
+async function createCarouselReady(userId, children, caption, token) {
+  let ultimoErro;
+  for (let tentativa = 1; tentativa <= 5; tentativa++) {
+    try {
+      const id = await postForm(`${userId}/media`, { media_type: 'CAROUSEL', children: JSON.stringify(children), caption }, token);
+      await waitFinished(id, token);
+      return id;
+    } catch (e) {
+      ultimoErro = e;
+      console.log(`  carrossel nao aceito (tentativa ${tentativa}/5): ${e.message}`);
+      if (tentativa < 5) await new Promise(r => setTimeout(r, 30000));
+    }
+  }
+  throw ultimoErro;
 }
 async function publishMedia(userId, creationId, token) {
-  const p = new URLSearchParams({ creation_id: creationId, access_token: token });
-  const r = await fetch(`${IG_BASE}/${userId}/media_publish?${p}`, { method: 'POST' });
-  if (!r.ok) throw new Error(`publish ${r.status}: ${await r.text()}`);
-  return (await r.json()).id;
+  return postForm(`${userId}/media_publish`, { creation_id: creationId }, token);
 }
 async function permalink(mediaId, token) {
   const p = new URLSearchParams({ fields: 'permalink', access_token: token });
@@ -114,8 +151,9 @@ console.log(`  imagens servidas via raw.githubusercontent.com (${REPO} @ ${REF})
 const children = [];
 for (const u of urls) children.push(await createChild(USER, u, TOKEN));
 for (const c of children) await waitFinished(c, TOKEN);
-const carousel = await createCarousel(USER, children, caption, TOKEN);
-await waitFinished(carousel, TOKEN);
+// Os filhos reportam FINISHED antes de estarem realmente referenciaveis pelo carrossel.
+await new Promise(r => setTimeout(r, 15000));
+const carousel = await createCarouselReady(USER, children, caption, TOKEN);
 
 if (DRY) { console.log(`DRY RUN OK: tudo pronto, NAO publicado (post "${post.id}" segue na fila).`); process.exit(0); }
 
