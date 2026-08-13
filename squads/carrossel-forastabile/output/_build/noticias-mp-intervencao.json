@@ -1,0 +1,36 @@
+{
+  "outDir": "queue/posts/noticias-mp-intervencao",
+  "slides": [
+    {
+      "tipo": "noticia",
+      "tarja": "10/08/2026 · TERRA",
+      "headline": "STABILE DEPÔS AO MP SOBRE INTERVENÇÃO NO CORINTHIANS",
+      "body": "O presidente prestou depoimento em inquérito civil que apura a administração do clube. Chegou acompanhado de dois advogados.",
+      "credito": "Fonte: Terra · 10/08/2026"
+    },
+    {
+      "tipo": "fato",
+      "numero": "01",
+      "headline": "O QUE ESTÁ EM JOGO",
+      "body": "Ao fim do inquérito, o Ministério Público pode propor ação civil pedindo intervenção judicial na administração do Corinthians.",
+      "credito": "Fonte: CNN Brasil · Terra · ago/2026"
+    },
+    {
+      "tipo": "fato",
+      "numero": "02",
+      "headline": "NÃO É A ÚNICA FRENTE",
+      "body": "O MP também agendou oitiva sobre os contratos com empresa de segurança. O ramo do próprio presidente.",
+      "credito": "Fonte: Meu Timão · DGABC · ago/2026"
+    },
+    {
+      "tipo": "faixa",
+      "headline": "RENÚNCIA\nOU IMPEACHMENT",
+      "body": "Investigação não é condenação. Mas um clube sob risco de intervenção não pode esperar até novembro."
+    },
+    {
+      "tipo": "cta",
+      "headline": "ASSINE O\nMANIFESTO",
+      "body": "Leva 1 minuto. Link na bio."
+    }
+  ]
+}

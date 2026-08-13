@@ -10,5 +10,14 @@
     "5": "dossie",
     "6": "faixa"
   },
-  "posts": []
+  "posts": [
+    {
+      "id": "noticias-mp-intervencao",
+      "type": "noticias",
+      "title": "Stabile depos ao MP sobre intervencao",
+      "date": "2026-08-13",
+      "published": false,
+      "url": null
+    }
+  ]
 }
